@@ -1,0 +1,42 @@
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: url(img/Gambling.jpg) no-repeat center / cover;
+}
+
+.header_box {
+  background-color: rgba(0, 0, 0, 0.841);
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+.header_box h1 {
+  padding-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  padding-top: 124px;
+}
+
+.header_box button {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color: blueviolet;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 0;
+}
